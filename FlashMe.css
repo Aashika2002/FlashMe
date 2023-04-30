@@ -1,0 +1,512 @@
+:root{
+    --white: #ddd;
+    --dark: #111;
+    --darkGrey: #474b4f;
+    --lightGrey: #6b6e70;
+    
+    --transition: all 0.5s ease;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    line-height: 1.6;
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://vistapointe.net/images/photography-2.jpg") center/cover no-repeat;
+    color: #fff;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(10px);
+  
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 15px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.top-nav a{
+    color: #fff;
+}
+.brand-and-navBtn{
+    background: #000;
+    position: relative;
+    z-index: 999;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 15px 25px;
+    color: var(--white);
+}
+html{
+    scroll-behavior: smooth;
+}
+.top-nav {
+flex: 0 1  80%;
+display : flex;
+justify-content: flex-end;
+align-items: center;
+transition: transform 0s ease;
+transform: translateY(0);
+background: transparent;
+}
+.top-nav ul{
+    display: flex;
+}
+.brand-name{
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+a.active {
+    color: hotpink;
+  } 
+a:hover
+  {
+    color: hotpink;
+    
+  }
+
+.search-icon{
+    width: 40px;
+    height: 40px;
+    
+    cursor: pointer;
+    display: flex;
+}
+.search-icon:hover
+{
+    color: hotpink;
+}
+
+.top-nav ul li{
+
+    padding: 10px 0;
+    margin-right:30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.top-nav ul a{
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+.button:hover
+{
+    color:hotpink;
+}
+
+.about{
+    margin-top: -160px;
+}
+.header{
+    min-height: 100vh;
+    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://www.adorama.com/alc/wp-content/uploads/2018/07/shutterstock_170815865.jpg") center/cover no-repeat;
+    color: #fff;
+}
+.about-content h2{
+    margin: 200px auto;
+
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: hotpink;
+}
+.about-content h3{
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+    margin: 35px auto;
+    text-align: center;
+}
+blockquote{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.9;
+    width: 60vw;
+    margin: 45px auto 15px auto;
+    text-align: center;
+}
+blockquote span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hotpink;
+    font-weight: 300;
+    letter-spacing: 5px;
+    display: block;
+    font-weight: 60px;
+}
+.social-icons{
+    width: 350px;
+    margin: 40px auto 0 auto;
+    padding-bottom: 30px;
+}
+.social-icons ul a{
+    color:black;
+    font-size: 30px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons ul a:hover{
+    background: hotpink;
+    border-color: hotpink;
+}
+.footer{
+    background: var(--dark);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-container > div{
+    margin: 40px 0;
+}
+.footer-container h2{
+    color: hotpink;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+.footer-container p{
+    opacity: 0.7;
+}
+.subs{
+    background: #000;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+.subs i{
+    font-size: 26px;
+    flex: 10%;
+    display: block;
+}
+.subs input{
+    flex: 60%;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 0 5px;
+    outline: 0;
+    color: #fff;
+}
+.subs button{
+    flex: 30%;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+    background: hotpink;
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.subs button:hover{
+    color: #fff;
+}
+.footer > p{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* Home Completed Contact Starts*/
+.section-five{
+ 
+        min-height: 100vh;
+        background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://vistapointe.net/images/photography-2.jpg") center/cover no-repeat;
+        color: #fff;
+        margin: 40px 0;
+
+}
+
+.contact-top{
+    text-align: center;
+}
+.contact-top h3{
+   
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.contact-top p{
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-top  span{
+    height: 0.5px;
+    width: 80px;
+    background: black;
+    margin: 30px 0;
+}
+.contact-middle div{
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+}
+.contact-middle div span{
+    display: block;
+}
+.contact-icon{
+    font-size: 30px;
+}
+.contact-middle div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-middle div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-bottom{
+    margin-top: 50px!important;
+}
+
+/* About us */
+.section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("https://techengage.com/wp-content/uploads/2019/08/pixabay-canon-camera.jpg") center/cover no-repeat;
+}
+.content{
+    background: black ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid hotpink;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color:hotpink;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #06d6a0;
+}
+.links li:hover a{
+    color :#06d6a0;
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background:hotpink;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #06d6a0;
+}
+@media(max-width: 992px){
+
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+/* gallery */
+.section-three{
+    margin: 40px 0;
+}
+.single-img{
+    position: relative;
+    margin: 10px;
+}
+.single-img-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 5px 30px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.single-img-content h3{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+/* apply now*/
+
+.section-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.imageapply{
+    background: url("https://i.pinimg.com/474x/26/7b/a0/267ba0aed8c18456dea28e6fe020837d--woman-photography-photography-portraits.jpg") center/cover no-repeat;
+}
+.Apply{
+    background: black ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Apply h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.Apply span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.Apply p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.btn{
+    background: hotpink;
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: hotpink;
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid hotpink;
+    border-radius: 25px;
+    margin: 15px 0;
+    transition: var(--transition);
+}
+.btn:hover{
+    background: hotpink;
+    color: #fff;
+}
