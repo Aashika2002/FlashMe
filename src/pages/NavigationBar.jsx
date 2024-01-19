@@ -10,7 +10,7 @@ function NavigationBar() {
                 <span className=" tracking-normal sm:tracking-widest text-2xl sm:text-3xl  text-white font-nunito">Flash Me</span>
             </Navbar.Brand>
             <div className="flex md:order-2 ">
-                <Button className='bg-pink-500 font-nunito  '>Login</Button>
+                <Button className='bg-pink-500 font-nunito '>Login</Button>
                 <Navbar.Toggle />
             </div>
             

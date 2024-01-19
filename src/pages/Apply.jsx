@@ -6,7 +6,7 @@ function Apply() {
         <div className="bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${imageURL})` }}>
             <div className='bg-white bg-opacity-10'>
 
-                <div className='grid sm:grid-cols-2  sm:mx-24 mx-5  '>
+                <div className='grid sm:grid-cols-2  sm:mx-24 mx-0  '>
 
                     <div className='bg-black text-white text-center sm:h-5/6 sm:mt-20 mt-10 h-screen flex justify-center items-center flex-col text-opacity-50'>
                         <h1 className='sm:text-4xl text-2xl font-nunito tracking-widest font-bold sm:p-10  pt-10 pb-5'>APPLY NOW</h1>
@@ -54,7 +54,7 @@ function Apply() {
 
 
                     <div className='object-contain  '>
-                        <img className=" sm:w-full sm:h-5/6 h-80 sm:mt-20 " src=" https://i.pinimg.com/474x/26/7b/a0/267ba0aed8c18456dea28e6fe020837d--woman-photography-photography-portraits.jpg" />
+                        <img className=" sm:w-full sm:h-5/6 h-90 w-80  sm:mt-20 sm:ml-0  ml-16 " src=" https://i.pinimg.com/474x/26/7b/a0/267ba0aed8c18456dea28e6fe020837d--woman-photography-photography-portraits.jpg" />
 
                     </div>
                 </div>

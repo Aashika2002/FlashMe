@@ -4,6 +4,7 @@
 import './App.css';
 import AboutUs from './pages/AboutUs';
 import Apply from './pages/Apply';
+import ContactUs from './pages/ContactUs';
 import Home from './pages/Home';
 import MyFooter from './pages/MyFooter';
 import NavigationBar from './pages/NavigationBar';
@@ -17,6 +18,7 @@ function App() {
     <AboutUs/>
     <Work/>
     <Apply/>
+    <ContactUs/>
     <MyFooter/>
 
 

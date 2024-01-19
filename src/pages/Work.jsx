@@ -4,9 +4,9 @@ function Work() {
   const imageURL = "https://vistapointe.net/images/photography-2.jpg";
   return (
 
-    <div className='sm:mt-0 mt-20 ' style={{ backgroundImage: `url(${imageURL})` }}>
+    <div className=' ' style={{ backgroundImage: `url(${imageURL})` }}>
       <div className='bg-black bg-opacity-65'>
-        <div className='sm:pt-10 pt-20 pb-5 sm:pb-0 text-center text-2xl sm:text-4xl font-nunito  text-white '>
+        <div className='sm:pt-10 pt-80 pb-5 sm:pb-0 text-center text-2xl sm:text-4xl font-nunito  text-white '>
           <h1 className=''>Explore Our Collections</h1>
         </div>
         <div className='grid  grid-cols-1 sm:grid-cols-3 sm:mt-10 sm:mx-10 space-x-5 space-y-5 p-5'>
