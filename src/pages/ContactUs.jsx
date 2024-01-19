@@ -22,7 +22,7 @@ function ContactUs() {
                         <input className="border-pink-400 bg-transparent rounded-3xl  placeholder-white py-3 font-nunito text-base my-3 mx-5 text-white" type="email" placeholder='Email' required={true}/>
                         
                         <textarea rows="4" className="border-pink-400 bg-transparent placeholder-white rounded-3xl py-3 font-nunito text-base my-3 mx-5 text-white" type="textarea" placeholder='Suggestions' required={true}/>
-                        <div className='flex justify-center items-center mt-3 mb-0'>
+                        <div className='flex justify-center items-center sm:mt-3 mb-0 mt-2'>
                         <button type="submit" className='rounded-full w-32 border-2 border-pink-400 text-xl font-nunito bg-pink-400 py-2 px-10 text-white hover:bg-transparent '>Send</button>
                         </div>
                     </form>

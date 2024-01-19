@@ -54,7 +54,7 @@ function Apply() {
 
 
                     <div className='object-contain  '>
-                        <img className=" sm:w-full sm:h-5/6 h-90 w-80  sm:mt-20 sm:ml-0  ml-16 " src=" https://i.pinimg.com/474x/26/7b/a0/267ba0aed8c18456dea28e6fe020837d--woman-photography-photography-portraits.jpg" />
+                        <img className=" sm:w-full sm:h-5/6 h-90 w-80  sm:mt-20 sm:ml-0  ml-10 " src=" https://i.pinimg.com/474x/26/7b/a0/267ba0aed8c18456dea28e6fe020837d--woman-photography-photography-portraits.jpg" />
 
                     </div>
                 </div>
